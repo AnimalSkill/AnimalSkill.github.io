@@ -1,0 +1,561 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1280px;
+    margin: auto;
+}
+
+header {
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 50px;
+    background-color: #445162;
+    margin: auto;
+    position: relative;
+}
+
+h1 {
+    font-size: 44px;
+    position: absolute;
+    padding: 50px 860px 230px 46px;
+    color: white;
+    font-family: 'Arial';
+    font-weight: 200;
+}
+
+.tick {
+    width: 18px;
+    height: 18px;
+}
+
+.pos1 {
+    position: absolute;
+    top: 147px;
+    left: 51px;
+}
+
+.pos2 {
+    position: absolute;
+    top: 170px;
+    left: 51px;
+}
+
+.pos3 {
+    position: absolute;
+    top: 194px;
+    left: 51px;
+}
+
+.pos4 {
+    position: absolute;
+    top: 217px;
+    left: 51px;
+}
+
+.ul {
+    font-size: 20px;
+    font-family: 'Arial';
+    list-style-type: none;
+    padding-left: 79px;
+    padding-top: 145px;
+    color: white;
+}
+
+.img {
+    display: block;
+    width: 469px;
+    height: 214px;
+    background-color: #fff;
+    margin-right: 50px;
+    margin-top: 50px;
+    float: right;
+}
+
+main {
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+    background-color: #f5f5f5;
+    padding-bottom: 50px;
+    clear: both;
+}
+
+.white {
+    width: 100%;
+    display: inline-block;
+    background-color: #fff;
+    clear: both;
+    padding-bottom: 50px;
+}
+
+.h28 {
+    font-size: 28px;
+    font-family: 'Arial';
+    color: #445162;
+    font-weight: 200;
+    padding: 49px 976px 10px 50px;
+}
+
+.txt_border {
+    font-size: 16px;
+    font-family: 'Arial';
+    width: 649px;
+    margin-left: 50px;
+}
+
+.video {
+    display: block;
+    width: 430px;
+    height: 250px;
+    background-color: #445162;
+    margin-right: 50px;
+    margin-top: 50px;
+    float: right;
+}
+
+.h30 {
+    font-size: 30px;
+    font-family: 'Arial';
+    color: #445162;
+    font-weight: 200;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.adult {
+    position: relative;
+}
+
+.plus_pos1 {
+    position: absolute;
+    top: 2px;
+    left: 50px;
+    width: 32px;
+    height: 32px;
+}
+
+.plus_pos2 {
+    position: absolute;
+    top: 2px;
+    left: 50px;
+    width: 32px;
+    height: 32px;
+}
+
+.plus_pos3 {
+    position: absolute;
+    top: 2px;
+    left: 50px;
+    width: 32px;
+    height: 32px;
+}
+
+.plus_pos4 {
+    position: absolute;
+    top: 2px;
+    left: 50px;
+    width: 32px;
+    height: 32px;
+}
+
+.plus_pos5 {
+    position: absolute;
+    top: 2px;
+    left: 50px;
+    width: 32px;
+    height: 32px;
+}
+
+.plus_pos6 {
+    position: absolute;
+    top: 2px;
+    left: 50px;
+    width: 32px;
+    height: 32px;
+}
+
+.txt_border_2 {
+    width: 526px;
+    padding-left: 91px;
+    padding-bottom: 30px;
+    float: left;
+}
+
+.float {
+    float: left;
+}
+
+.screenshots {
+    display: block;
+    width: 200px;
+    height: 150px;
+    background-color: #445162;
+    margin-left: 50px;
+    float: left;
+}
+
+h4 {
+    display: inline-block;
+    font-size: 24px;
+    font-family: 'Arial';
+    color: #445162;
+    padding-left: 15px;
+    float: left;
+
+}
+
+.txt_screen {
+    font-size: 16px;
+    font-family: 'Arial';
+    width: 359px;
+    padding-left: 265px;
+    padding-top: 35px;
+    padding-bottom: 55px
+}
+
+.screenshots1 {
+    display: block;
+    width: 200px;
+    height: 150px;
+    background-color: #445162;
+    margin-left: 50px;
+    float: left;
+    clear: both;
+}
+
+.circle1 {
+    position: absolute;
+    left: 50px;
+    background-color: #445162;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+.circle2 {
+    position: absolute;
+    left: 656px;
+    background-color: #445162;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+.circle3 {
+    position: absolute;
+    top: 252px;
+    left: 50px;
+    background-color: #445162;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+.circle4 {
+    position: absolute;
+    top: 252px;
+    left: 656px;
+    background-color: #445162;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+
+.comment1 {
+    position: absolute;
+    left: 141px;
+    padding-bottom: 24px;
+}
+
+.comment2 {
+    position: absolute;
+    left: 747px;
+    padding-bottom: 24px;
+}
+
+.comment3 {
+    position: absolute;
+    top: 254px;
+    left: 141px;
+    padding-bottom: 24px;
+}
+
+.comment4 {
+    position: absolute;
+    top: 254px;
+    left: 747px;
+    padding-bottom: 24px;
+}
+
+.emergency {
+    margin-top: 330px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+
+
+}
+
+.x100 {
+    width: 300px;
+    border-radius: 2%;
+    background-color: #445162;
+    padding-top: 17px;
+    padding-bottom: 20px;
+}
+
+.x150 {
+    width: 300px;
+    border-radius: 2%;
+    background-color: #445162;
+    padding-top: 17px;
+    padding-bottom: 20px;
+}
+
+.x200 {
+    width: 300px;
+    border-radius: 2%;
+    background-color: #445162;
+    padding-top: 17px;
+    padding-bottom: 20px;
+}
+
+.type {
+    display: block;
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 17px;
+}
+
+.back_cost {
+    margin: auto;
+    width: 98%;
+    background-color: #fff;
+}
+
+.cost {
+    color: #445162;
+    display: block;
+    font-size: 40px;
+    font-family: 'Arial';
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+.sp_ul {
+    font-size: 14px;
+    font-family: 'Arial';
+    color: #fff;
+    list-style: decimal;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.li {
+    padding: 3px;
+}
+
+.button {
+    display: block;
+    width: 260px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #fff;
+    text-decoration: none;
+    margin: auto;
+}
+
+.button:hover {
+    background-color: #000;
+}
+
+.button:focus {
+    width: 255px;
+    height: 35px;
+}
+
+.button_text {
+    display: block;
+    font-size: 20px;
+    font-family: 'Arial';
+    font-weight: 600;
+    color: #445162;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 10px;
+    height: 30px;
+}
+
+.button_text:hover {
+    color: #fff;
+}
+
+
+footer {
+    width: 100%;
+    background-color: #445162;
+}
+
+.contact_txt {
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Arial';
+    font-weight: 200;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+input {
+    width: 500px;
+    height: 40px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-family: 'Arial';
+    font-size: 18px;
+    margin-left: 249px;
+    margin-bottom: 21px;
+}
+
+textarea {
+    width: 500px;
+    height: 170px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-family: 'Arial';
+    font-size: 18px;
+    margin-left: 249px;
+    margin-bottom: 21px;
+}
+
+.extra_flex {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.send_button {
+    display: block;
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #fff;
+    text-decoration: none;
+    margin-left: 429px;
+    margin-bottom: 49px
+}
+
+.send_button:hover {
+    background-color: #000;
+}
+
+.send_button:focus {
+    width: 135px;
+    height: 35px;
+}
+
+.send {
+    display: block;
+    width: 140px;
+    height: 32px;
+    font-size: 15px;
+    font-family: 'Arial';
+    font-weight: 900;
+    color: #445162;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 8px;
+    opacity: 0.9;
+}
+
+.send:hover {
+    color: #fff;
+}
+
+.skype_icon {
+    position: absolute;
+    top: 116px;
+    left: 795px;
+}
+
+.skype_txt {
+    position: absolute;
+    color: #fff;
+    top: 120px;
+    left: 824px;
+    font-size: 16px;
+    font-family: 'Arial';
+    font-weight: 300;
+}
+
+.icq_icon {
+    position: absolute;
+    top: 160px;
+    left: 794px;
+}
+
+.icq_txt {
+    position: absolute;
+    color: #fff;
+    top: 165px;
+    left: 824px;
+    font-size: 16px;
+    font-family: 'Arial';
+    font-weight: 300;
+}
+
+.mail_icon {
+    position: absolute;
+    top: 205px;
+    left: 795px;
+}
+
+.mail_txt {
+    position: absolute;
+    top: 207px;
+    left: 821px;
+    font-size: 16px;
+    font-family: 'Arial';
+    font-weight: 300;
+    color: #fff;
+}
+
+.tel_icon {
+    position: absolute;
+    top: 248px;
+    left: 795px;
+}
+
+.tel_txt {
+    position: absolute;
+    top: 251px;
+    left: 822px;
+    font-size: 16px;
+    font-family: 'Arial';
+    font-weight: 300;
+    color: #fff;
+}
+
+.social {
+    position: absolute;
+    top: 293px;
+    left: 794px;
+}
+
+.copy {
+    background-color: #fff;
+    height: 26px;
+    text-align: center;
+    color: #445162;
+}
