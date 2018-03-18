@@ -45,42 +45,14 @@ h1 {
     font-weight: 200;
 }
 
-.tick {
-    width: 18px;
-    height: 18px;
-}
-
-.pos1 {
-    position: absolute;
-    top: 147px;
-    left: 51px;
-}
-
-.pos2 {
-    position: absolute;
-    top: 170px;
-    left: 51px;
-}
-
-.pos3 {
-    position: absolute;
-    top: 194px;
-    left: 51px;
-}
-
-.pos4 {
-    position: absolute;
-    top: 217px;
-    left: 51px;
-}
-
 .ul {
     font-size: 20px;
     font-family: 'Arial';
     list-style-type: none;
     padding-left: 79px;
     padding-top: 145px;
-    color: white;
+    color: #fff;
+    list-style-image: url(../img/tick.gif)
 }
 
 .img {
