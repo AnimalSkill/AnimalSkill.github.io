@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: Raleway-Regular;
+    src: url('../fonts/raleway/Raleway-Regular.ttf')
+}
+
+@font-face {
+    font-family: Montserrat-Light;
+    src: url('../fonts/montserrat/Montserrat-Light.ttf')
+}
+
+.container {
+    width: 1920px;
+    margin: auto;
+}
+
+header {
+    width: 100%;
+    height: 1027px;
+    background-image: url(../img/bg.png);
+    position: relative;
+}
+
+.logo {
+    margin-left: 377px;
+    margin-top: 42px;
+    float: left;
+}
+
+.waxom {
+    display: inline-block;
+    font-size: 34px;
+    font-family: 'Raleway-Regular';
+    color: #fff;
+    margin-top: 47px;
+    margin-left: 2px;
+}
+
+.home:hover {
+    color: #c7b299;
+    transition: color ease 0.2s;
+}
+
+.menu:hover {
+    color: #c7b299;
+    transition: color ease 0.2s;
+}
+
+
+.home {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Montserrat-Light';
+    margin-left: 219px;
+}
+
+.menu {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Montserrat-Light';
+    margin-left: 30px;
+}
+
+.portfolio {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Montserrat-Light';
+    margin-left: 30px;
+}
+
+.cart {
+    display: block;
+    margin-left: 1520px;
+    margin-top: -25px;
+    width: 18px;
+}
+
+.search:focus{
+    width: 225px;
+    transition: width ease 1s;
+}
+
+.search {
+    display: block;
+    margin-left: 1598px;
+    margin-top: -27px;
+    width: 80px;
+    height: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    font-size: 20px;
+    background: transparent;
+    border: none;
+    color: #fff;
+}
+
+.lupa{
+    position: absolute;
+    top: 63px;
+    left: 1570px;
+    width: 24px;
+    height: 24px;
+}
+
+
+
+
