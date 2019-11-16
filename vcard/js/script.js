@@ -1,15 +1,15 @@
-function checkAge(age) {
-  if (age > 18) {
-    return true;
-  } else {
-    return confirm('Родители разрешили?');
+var age = prompt('Сколько вам лет?');
+
+var sayHi;
+
+if (age >= 18) {
+  sayHi = function() {
+    alert( 'Прошу Вас!' );
+  }
+} else {
+  sayHi = function() {
+    alert( 'До 18 нельзя' );
   }
 }
 
-var num = prompt('Ваш возраст?');
 
-if (checkAge(num)) {
-  alert( 'Доступ разрешен' );
-} else {
-  alert( 'В доступе отказано' );
-}
