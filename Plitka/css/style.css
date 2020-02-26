@@ -113,7 +113,7 @@ h2 {
     color: white;
     word-spacing: 10px;
     letter-spacing: 2px;
-    font-size: 16px;
+    font-size: 18px;
     font-family: sans-serif;
 }
 
@@ -137,12 +137,12 @@ h2 {
     margin: auto;
     flex-wrap: wrap;
     text-align: center;
-    width: 713px;
+    max-width: 713px;
     font-size: 18px;
     font-family: 'Exo';
 }
 
-h3 {
+h3,h4 {
     text-align: center;
     font-size: 36px;
     color: #252c30;
@@ -200,4 +200,28 @@ h3 {
     width: 100%;
     height: 244px;
     background-size: cover;
+}
+.why_we {
+    margin: auto;
+    max-width: 1100px;
+    padding-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.principles {
+    width: 330px;
+    margin: 0px 5px 30px 0px;
+}
+
+.why_we span {
+    font-size: 26px;
+    font-family: 'Exo';
+    text-transform: capitalize;
+}
+
+.why_we p {
+    font-size: 16px;
+    font-family: 'Exo';
 }
