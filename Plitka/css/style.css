@@ -147,6 +147,11 @@ h2 {
     margin-bottom: 30px;
 }
 
+.principles:hover .tag {
+    background-color: #252C30;
+    transition: background-color ease 0.2s;
+}
+
 .tag {
     margin-right: 5px;
     display: block;
