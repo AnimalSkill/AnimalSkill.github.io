@@ -216,6 +216,7 @@ h3, h4 {
     border: solid #2d3e50 2px;
     padding-left: 23px;
     padding-right: 23px;
+    border-radius: 9px;
 }
 
 .example:hover {
