@@ -69,7 +69,7 @@ nav {
 
 .anchors {
     text-transform: uppercase;
-    font-family: 'Exo-Bold';
+    font-family: 'Exo-bold';
     font-size: 16px;
     color: #252C30;
     padding: 5px;
@@ -77,12 +77,12 @@ nav {
 
 .anchors:hover b {
     color: black;
-    transition: color ease 0.1s;
+    transition: 0.1s linear;
 }
 
 .anchors:hover {
     color: #FFC000;
-    transition: color ease 0.1s;
+    transition: 0.1s linear;
 }
 
 .under_nav {
@@ -128,7 +128,7 @@ h2 {
 
 .phone_call:hover {
     background-color: #252C30;
-    transition: background-color ease 0.2s;
+    transition: 0.2s linear;
 }
 
 
@@ -147,8 +147,8 @@ h2 {
 }
 
 .principles:hover .tag {
+    transition: 0.2s linear;
     background-color: #252C30;
-    transition: background-color ease 0.2s;
 }
 
 .tag {
@@ -219,6 +219,8 @@ h4 {
 
 .example:hover {
     box-shadow: 3px 3px 5px grey;
+    transform: scale(1.02);
+    transition: 0.1s linear;
 }
 
 .text_in_box {
@@ -227,7 +229,8 @@ h4 {
     color: white;
     margin-top: 62%;
     text-align: center;
-    font-family: 'Exo-Bold'; 
+    font-family: 'Oswald'; 
+    font-family: 'Exo-bold'; 
     text-transform: uppercase;
     letter-spacing: 15px;
 }
@@ -241,6 +244,7 @@ h4 {
 
 
 .example:hover p {
+    transition: 0.2s linear;
     color: black;
     opacity: 0;
 }
