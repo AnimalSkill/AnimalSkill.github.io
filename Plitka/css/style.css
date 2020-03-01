@@ -61,9 +61,9 @@ nav {
 
 .logo {
     width: 80px;
+    height: 80px;
     margin-left: 160px;
     margin-right: 200px;
-    height: 80px;
 }
 
 .anchors {
