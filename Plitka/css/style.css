@@ -256,7 +256,7 @@ h4 {
 .prices {
     padding-top: 50px;
     margin: auto;
-    width: 1000px;
+    max-width: 1000px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
