@@ -263,30 +263,32 @@ h4 {
     flex-direction: row-reverse;
 }
 
-.price_list {
-    
-}
+.price_list {}
 
-details{ 
+details {
     padding-top: 30px;
     width: 470px;
-    font-family: 'Exo-Bold'; 
+    font-family: 'Exo-Bold';
 }
 
 details summary::-webkit-details-marker {
-    color:  #FFC000;
+    color: #FFC000;
 }
 
-details summary ~ *{
+details summary ~ * {
     animation: sweep 0.5s linear;
 }
 
 @keyframes sweep {
-    0%   {opacity: 0; margin-left: -10px;}
-/*    40%  {height: 22.5px;}*/
+    0% {opacity: 0; margin-left: -10px;}
     100% {opacity: 1; margin-left: 0px;}
+}
+
+summary{
+    outline: none;
 }
 
 details p {
     font-family: 'Exo';
+    border-bottom: solid grey 2px;
 }
