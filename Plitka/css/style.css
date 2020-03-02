@@ -73,6 +73,7 @@ nav {
     font-size: 16px;
     color: #252C30;
     padding: 5px;
+    transition: 0.2s linear;
 }
 
 .anchors:hover b {
@@ -124,6 +125,7 @@ h2 {
     color: white;
     font-size: 25px;
     font-family: 'Exo-Bold';
+    transition: 0.2s linear;
 }
 
 .phone_call:hover {
@@ -158,6 +160,7 @@ h2 {
     height: 100%;
     background-color: #FFC000;
     float: left;
+    transition: 0.2s linear;
 }
 
 .why_we span {
@@ -215,12 +218,13 @@ h4 {
     background-size: cover;
     border-radius: 3px;
     cursor: pointer;
+    transition: 0.3s linear;
 }
 
 .example:hover {
     box-shadow: 3px 3px 5px grey;
     transform: scale(1.02);
-    transition: 0.1s linear;
+    transition: 0.2s linear;
 }
 
 .text_in_box {
@@ -229,8 +233,8 @@ h4 {
     color: white;
     margin-top: 62%;
     text-align: center;
-    font-family: 'Oswald'; 
-    font-family: 'Exo-bold'; 
+    font-family: 'Oswald';
+    font-family: 'Exo-bold';
     text-transform: uppercase;
     letter-spacing: 15px;
 }
@@ -247,4 +251,38 @@ h4 {
     transition: 0.2s linear;
     color: black;
     opacity: 0;
+}
+
+.prices {
+    padding-top: 50px;
+    margin: auto;
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+details{ 
+    padding-top: 30px;
+    width: 470px;
+    font-family: 'Exo-Bold'; 
+}
+
+details summary::-webkit-details-marker {
+    color:  #FFC000;
+}
+
+details summary ~ *{
+    animation: sweep 0.5s linear;
+}
+
+@keyframes sweep {
+    0%   {opacity: 0; margin-left: -10px;}
+/*    40%  {height: 22.5px;}*/
+    100% {opacity: 1; margin-left: 0px;}
+}
+
+details p {
+    font-family: 'Exo';
 }
