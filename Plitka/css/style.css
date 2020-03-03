@@ -130,7 +130,6 @@ h2 {
 
 .phone_call:hover {
     background-color: #252C30;
-    transition: 0.2s linear;
 }
 
 
@@ -149,7 +148,6 @@ h2 {
 }
 
 .principles:hover .tag {
-    transition: 0.2s linear;
     background-color: #252C30;
 }
 
@@ -239,6 +237,15 @@ h4 {
     letter-spacing: 15px;
 }
 
+ul {
+    text-align: center;
+}
+
+li {
+    font-size: 16px;
+    font-family: 'Exo';
+}
+
 .explanation {
     color: white;
     margin-top: 10px;
@@ -265,7 +272,7 @@ h4 {
 
 details {
     padding-top: 30px;
-    width: 470px;
+    width: 471px;
     font-family: 'Exo-Bold';
 }
 
@@ -278,8 +285,8 @@ details summary ~ * {
 }
 
 @keyframes sweep {
-    0% {opacity: 0; margin-left: -10px;}
-    100% {opacity: 1; margin-left: 0px;}
+    0% { max-height: 0px; opacity: 0; margin-left: -10px;}
+    100% {max-height: 20px; opacity: 1; margin-left: 0px;}
 }
 
 summary{
@@ -287,6 +294,7 @@ summary{
 }
 
 details p {
+    padding-bottom: 2px;
     font-family: 'Exo';
     border-bottom: solid grey 2px;
 }
