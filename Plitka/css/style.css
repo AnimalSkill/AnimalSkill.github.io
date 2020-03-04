@@ -95,6 +95,10 @@ nav {
     flex-wrap: wrap;
 }
 
+.under_nav span {
+    flex-wrap: nowrap;
+}
+
 h1 {
     width: 570px;
     padding-top: 225px;
