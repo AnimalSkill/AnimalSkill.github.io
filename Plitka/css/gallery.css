@@ -12,6 +12,7 @@ body {
 }
 
 .header {
+    font-size: 25px;
     text-align: center;
     padding: 32px;
     font-family: 'Exo-Bold'
