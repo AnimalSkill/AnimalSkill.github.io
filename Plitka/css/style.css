@@ -45,7 +45,7 @@ header {
 }
 
 .email {
-    padding: 10px;
+    padding: 5px;
     font-size: 18px;
     background-color: white;
     border-radius: 5px;
@@ -54,7 +54,7 @@ header {
 }
 
 .tel {
-    padding: 10px;
+    padding: 5px;
     color: #2d3e50; 
     font-family: 'Exo'; 
     font-size: 18px;
