@@ -45,9 +45,21 @@ header {
 }
 
 .email {
+    padding: 10px;
     font-size: 18px;
-    color: white;
+    background-color: white;
+    border-radius: 5px;
     font-family: 'Exo';
+    color: #2d3e50;
+}
+
+.tel {
+    padding: 10px;
+    color: #2d3e50; 
+    font-family: 'Exo'; 
+    font-size: 18px;
+    background-color: white;
+    border-radius: 5px;
 }
 
 nav {
