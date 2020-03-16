@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <title>Svoy Plitochnik</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="ajax.js"></script>
 </head>
 
 <body class="container">
@@ -24,10 +26,10 @@
             </a>
             <a class="anchors" href="#about_us">о нас</a>
             <a class="anchors" href="#examples">наши работы</a>
-<!--            <a href="" class="anchors">галерея</a>-->
+            <!--            <a href="" class="anchors">галерея</a>-->
             <a class="anchors" href="">наши мастера</a>
             <a class="anchors" href="#prices">цены</a>
-            <a class="anchors" href="">контакты
+            <a class="anchors" href="#contacts">контакты
             </a>
         </nav>
         <section class="under_nav">
@@ -35,7 +37,7 @@
                 <div style="width: 100%; height: 87px"><span style="color: #FFC000; padding-right: 20px">Свой</span><span>Плиточник</span></div>в СПБ
             </h1>
             <h2>Укладка плитки любой сложности</h2>
-            <a class="phone_call" href="#">Заказать звонок</a>
+            <a class="phone_call" href="#contacts">Заказать звонок</a>
         </section>
     </header>
     <main>
@@ -189,8 +191,12 @@
             </div>
         </section>
         <section style="padding-top: 120px; height: 500px;">
-            <span class="offer">Контакты</span>
+            <span id="contacts" class="offer">Контакты</span>
+            <form class="form" id="form" name="form" method="post">
+                <input type="text" class="form-field" name="name" placeholder="Введите Ваше имя" required> <br>
+                <input type="text" class="form-field" name="phone" placeholder="Введите Ваш телефон" required> <br>
+                <button>Отправить</button>
+            </form>
         </section>
-        <form action=""></form>
     </main>
 </body></html>
