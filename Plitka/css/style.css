@@ -323,3 +323,18 @@ details p {
 .form-button {
     
 }
+
+footer {
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    height: 30px;
+    background-color: #252c30;
+    color: white;
+    font-family: 'Exo';
+}
+
+.footer_text {
+    font-size: 10px;
+     margin: auto;
+}
