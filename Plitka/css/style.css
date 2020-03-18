@@ -31,11 +31,11 @@ a {
     top: 7px;
     left: 20px;
     font-family: 'Exo';
-    background-color: grey; 
+    background-color: #FFC000; 
     color: white;
     padding: 0px 2px 2px 2px;
     position: fixed;
-    border: 2px solid grey;
+    border: 2px solid #FFC000;
     border-radius: 10px;
     opacity: 0.5;
     z-index: 2;
