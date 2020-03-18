@@ -28,8 +28,9 @@ a {
 }
 
 .up {
-    top: 7px;
-    left: 20px;
+    top: 52px;
+    left: 5px;
+    font-size: 40px;
     font-family: 'Exo';
     background-color: #FFC000; 
     color: white;
