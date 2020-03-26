@@ -1,3 +1,4 @@
+alert("Сайт еще в разработке")
 $(document).ready(function() {
 
 	$("#form").submit(function() {
